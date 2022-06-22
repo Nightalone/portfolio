@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dyego Castro Cerqueira</title>
+        <link rel="stylesheet" href="conf/estilo.css">
+        <link rel="stylesheet" href="conf/media.css">
+        <script src="https://kit.fontawesome.com/b724a9e61a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    </head>
+    <body>
+    
+        <nav class="navbar navbar-expand-sm navegador">
+            
+            <a href="#" class="navbar-brand logo">Desenvolvedor Web</a>
+
+            <button class="navbar-toggler" id="botao-oculto" type="button" data-toggle="collapse" data-target="#nav">
+                <span class="navbar-toggler-icon ">Menu</span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link link" href="#inicio"> Início </a></li>
+                    <li class="nav-item"><a class="nav-link link" href="#projetos"> Projetos </a></li>
+                    <li class="nav-item"><a class="nav-link link" href="#sobre"> Sobre </a></li>
+                    <li class="nav-item"><a class="nav-link link" href="#contato"> Contato </a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <section class="primeiroBloco container-fluid" id="inicio">
+            <div class="row justify-content-center align-items-center caixa-1">
+                <div class="col-xs-12 col-sm-10 col-md-7 col-lg-6 col-xl-5 caixaNome">
+                    <h1 class="nome" id="nomePrincipal">Dyego Castro Cerqueira</h1>
+                    <h2 class="nome" id="nomeDesenvolvedor">Desenvolvedor Front End</h2><br/>
+                    <a href="https://www.linkedin.com/in/castro-cerqueira/" target="_blank" class="btn btn-outline-primary botaoLinkedin"><i class="fab fa-linkedin mr-1"></i>LinkedIn</a>
+                    <a href="https://github.com/Nightalone" target="_blank" class="btn btn-outline-primary botaoGithub"><i class="fab fa-github mr-1"></i>GitHub</a>
+                </div>
+                <div >
+                    <figure class="col-xs-11 col-sm-8 col-md-10 col-lg-6 col-xl-5">
+                        <img src="imagens/devfront.png" alt="Desenvolvedor Web" class="trabalhando"/>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        
+        <br/>
+
+        <section class="segundoBloco container-fluid mt-4 mb-5" id="projetos">
+        
+            <h1 class="text-center mb-5 mt-5">PROJETOS</h1>
+            
+            <div class="row justify-content-center">
+                <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 mt-5 mr-lg-4 mr-xl-5">
+                    <div class="card border-dark cartao" onmouseover="aparecerTexto()">
+                        <img src="imagens/finans.png" class="card-img-top">
+                        <div class="card-body">
+                            <h1 class="card-title">Site Finans</h1>
+                            <div class="card-text" id="informacoesFinans"></div><br/>
+                            <a href="https://nightalone.github.io/Sites/" target="_blank" class="btn btn-primary mr-2">Site Finans</a>
+                            <a href="https://nightalone.github.io/site-finans/" target="_blank" class="btn btn-primary">Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function aparecerTexto(){ 
+                        document.querySelector('#informacoesFinans').innerHTML = "Simulador de um site de finanças. <br> Tecnologias usadas: HTML, CSS e Bootstrap.";
+                        document.querySelector('#informacoesFinans').style.transition = '2s';
+                        document.querySelector('#informacoesFinans').style.padding = '5px 0px 0px 5px';
+                    }
+                </script>
+
+                <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 mt-5 ml-lg-4 ml-xl-5">
+                    <div class="card border-dark cartao" onmouseover="mudarTexto()">
+                        <img src="imagens/urna.png" class="card-img-top">
+                        <div class="card-body">
+                            <h1 class="card-title">Urna Eletrônica</h1>
+                            <div class="card-text" id="informacoesUrna"></div><br/>
+                            <a href="https://nightalone.github.io/urnaeletronica/" target="_blank" class="btn btn-primary mr-2">Urna Eletrônica</a>
+                            <a href="https://github.com/Nightalone/urnaeletronica" target="_blank" class="btn btn-primary">Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function mudarTexto(){ 
+                        document.querySelector('#informacoesUrna').innerHTML = "Simulador de urna eletrônica. <br> Tecnologias usadas: HTML, CSS e Javascript.";
+                        document.querySelector('#informacoesUrna').style.transition = '2s';
+                        document.querySelector('#informacoesUrna').style.padding = '5px 0px 0px 5px';
+                    }
+                </script>
+            </div>
+
+        </section>
+
+        <br/>
+
+        <section class="terceiroBloco container-fluid mt-5 mb-5" id="sobre">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xs-12 col-md-8 mt-5">
+                    <h1 class="text-center mt-5">SOBRE MIM</h1>
+                    <p class="texto mt-5">Olá meu nome é Dyego. Formado em Análise e Desenvolvimento de Sistemas e no momento estou estudando 
+                    primeiro semestre em Ciências da Computação e em paralelo curso de React. Apaixonado por programação, principais tecnologias
+                    que trabalho: HTML, CSS, Bootstrap, Javascript e React.</p><br/>
+                    <i class="fab fa-html5 icones" id="primeiroIcone"></i>
+                    <i class="fab fa-css3-alt icones" id="segundoIcone"></i>
+                    <i class="fab fa-bootstrap icones" id="terceiroIcone"></i>
+                    <i class="fab fa-js icones" id="quartoIcone"></i>
+                    <i class="fab fa-react icones" id="quintoIcone"></i>
+                </div>
+            </div>
+        </section>
+
+        <br/><br/>
+
+        <section class="quartoBloco container-fluid mt-5" id="contato">
+            <div class="row justify-content-center align-items-center">
+                <div class="text-center">
+                    <h2>DISPONÍVEL PARA OPORTUNIDADES</h2>
+                    <i class="fas fa-envelope mr-1  mt-3 iconeEmail"></i> <span class="h5">dcastrocerqueira33@gmail.com</span> <br/>
+                    <i class="fab fa-whatsapp mr-1 mt-3 iconeWhat"></i> <span class="h5">(11) 99630-0478</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid">
+            <div class="row justify-content-center align-items-center rodape">
+                <div>
+                    <h3 class="nomeFooter">Desenvolvido por: Dyego Castro Cerqueira</h3>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>

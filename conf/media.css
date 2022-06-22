@@ -1,0 +1,108 @@
+@media (max-width: 575.98px) {
+    
+    /* Menu de navegação superior */
+   
+    #botao-oculto{
+        border: 1px solid white;
+        color: white;
+        padding-right: 31px;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    .navegador{
+        height: 214px;
+    }
+    
+     /* Primeira section */
+
+     .caixa-1{
+        padding-left: 23px;
+     }
+
+     #nomePrincipal{
+        font-size: 32px;
+     }
+
+     #nomeDesenvolvedor{
+        font-size: 26px;
+     }
+
+     .trabalhando{
+        width: 350px;
+    }
+
+
+    /* Terceira section */
+
+    .terceiroBloco{
+        height: 540px;
+    }
+
+    /* Rodapé */
+
+    .nomeFooter{
+        font-size: 18px;
+    }
+
+
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Primeira section */
+
+    .nome{
+        padding-left: 30px;
+    }
+
+    .batao-perfil{
+    padding-left: 30px;
+    }
+
+    .trabalhando{
+    width: 452px;
+    }
+
+}
+
+ 
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    /* Terceira section */
+
+    .terceiroBloco{
+        height: 520px;
+    }
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Primeira section */
+
+    .trabalhando{
+        width: 470px;
+    }
+
+    .nome{
+        padding-left: 60px;
+    }
+
+    .botaoLinkedin{
+        margin-left: 86px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (min-width: 1200px) { 
+
+    /* Primeira section */
+
+    .trabalhando{
+        width: 576px;
+    }
+
+}

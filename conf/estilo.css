@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family= Sofia & display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Menu de navegação superior */
+
+.navegador{
+    background-color: black;
+    height: 70px;
+}
+
+.logo{
+    color: white;
+}
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    color: #1E90FF;
+    border-bottom: 1px solid #1E90FF;
+}
+
+
+/* Primeira section */
+.primeiroBloco{
+    background-color: black;
+    height: 610px;
+}
+
+.caixa-1{
+    height: 600px;
+    
+}
+
+.nome{
+    color: #1E90FF;
+    text-shadow: 1px 1px 1px;
+    font-family: Sofia;
+    font-style: italic;
+}
+
+.botaoLinkedin{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Segunda section */
+
+.cartao{
+    border: 1px solid black;
+}
+
+/* Terceira section */
+
+.terceiroBloco{
+    background-color: black;
+    color: #1E90FF;
+    height: 450px;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+.icones{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#primeiroIcone{
+    color: #FF4500;
+}
+
+#segundoIcone{
+    color: #0000FF;
+}
+
+#terceiroIcone{
+    color: #8A2BE2;
+}
+
+#quartoIcone{
+    color: #FFFF00;
+}
+
+/* Quarta section */
+
+.quartoBloco{
+    height: 300px;
+}
+
+.iconeEmail{
+    font-size: 24px;
+    color: blue;
+}
+
+.iconeWhat{
+    font-size: 26px;
+    color: green;
+}
+
+/* Rodape */
+
+.rodape{
+    background-color: black;
+    height: 100px;
+}
+
+.nomeFooter{
+    color: #1E90FF;
+    text-shadow: 1px 1px 1px;
+    font-family: Sofia;
+    font-style: italic; 
+}
+
+
+
+
+
+
