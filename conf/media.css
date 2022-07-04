@@ -21,21 +21,21 @@
      }
 
      #nomePrincipal{
-        font-size: 36px;
+        font-size: 28px;
         text-align: center;
      }
 
      #nomeDesenvolvedor{
-        font-size: 26px;
+        font-size: 22px;
         text-align: center;
      }
 
      .botaoLinkedin{
-        width: 380px;
+        width: 300px;
      }
 
      .botaoGithub{  
-        width: 380px;
+        width: 300px;
         margin-top: 30px;
         margin-left: 20px;
      }
