@@ -6,10 +6,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dyego Castro Cerqueira</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="javascript/script.js"></script>
         <link rel="stylesheet" href="conf/estilo.css">
         <link rel="stylesheet" href="conf/media.css">
         <script src="https://kit.fontawesome.com/b724a9e61a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
 
     </head>
     <body>
@@ -57,45 +60,28 @@
             
             <div class="row justify-content-center">
                 <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 mt-5 mr-lg-4 mr-xl-5">
-                    <div class="card border-dark cartao" onmouseover="aparecerTexto()">
+                    <div class="card border-dark cartao" id="finans">
                         <img src="imagens/finans.png" class="card-img-top">
                         <div class="card-body">
                             <h1 class="card-title">Site Finans</h1>
-                            <div class="card-text" id="informacoesFinans"></div><br/>
+                            <p class="card-text" id="informacoesFinans"></p>
                             <a href="https://nightalone.github.io/site-finans/" target="_blank" class="btn btn-primary mr-2">Site Finans</a>
-                            <a href="https://github.com/Nightalone/site-finans" target="_blank" class="btn btn-primary">Código</a>
-                            
+                            <a href="https://github.com/Nightalone/site-finans" target="_blank" class="btn btn-primary">Código</a>  
                         </div>
                     </div>
                 </div>
 
-                <script>
-                    function aparecerTexto(){ 
-                        document.querySelector('#informacoesFinans').innerHTML = "Simulador de um site de finanças. <br> Tecnologias usadas: HTML, CSS e Bootstrap.";
-                        document.querySelector('#informacoesFinans').style.transition = '2s';
-                        document.querySelector('#informacoesFinans').style.padding = '5px 0px 0px 5px';
-                    }
-                </script>
-
                 <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 mt-5 ml-lg-4 ml-xl-5">
-                    <div class="card border-dark cartao" onmouseover="mudarTexto()">
+                    <div class="card border-dark cartao" id="urna">
                         <img src="imagens/urna.png" class="card-img-top">
                         <div class="card-body">
                             <h1 class="card-title">Urna Eletrônica</h1>
-                            <div class="card-text" id="informacoesUrna"></div><br/>
+                            <p class="card-text" id="informacoesUrna"></p>
                             <a href="https://nightalone.github.io/urnaeletronica/" target="_blank" class="btn btn-primary mr-2">Urna Eletrônica</a>
                             <a href="https://github.com/Nightalone/urnaeletronica" target="_blank" class="btn btn-primary">Código</a>
                         </div>
                     </div>
-                </div>
-
-                <script>
-                    function mudarTexto(){ 
-                        document.querySelector('#informacoesUrna').innerHTML = "Simulador de urna eletrônica. <br> Tecnologias usadas: HTML, CSS e Javascript.";
-                        document.querySelector('#informacoesUrna').style.transition = '2s';
-                        document.querySelector('#informacoesUrna').style.padding = '5px 0px 0px 5px';
-                    }
-                </script>
+                </div>          
             </div>
 
         </section>
