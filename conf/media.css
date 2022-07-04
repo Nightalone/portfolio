@@ -31,14 +31,14 @@
      }
 
      .botaoLinkedin{
-        width: 306px;
-    
+        width: 280px;
+        margin-right: -20px;
      }
 
      .botaoGithub{  
-        width: 306px;
+        width: 280px;
         margin-top: 30px;
-        margin-left: 20px;
+        
      }
 
      .trabalhando{
@@ -66,13 +66,28 @@
 
     /* Primeira section */
 
-    .nome{
-        padding-left: 30px;
-    }
 
-    .batao-perfil{
-    padding-left: 30px;
-    }
+    #nomePrincipal{
+        font-size: 28px;
+        text-align: center;
+     }
+
+     #nomeDesenvolvedor{
+        font-size: 22px;
+        text-align: center;
+     }
+
+
+    .botaoLinkedin{
+        width: 340px;
+        margin-right: -20px;
+     }
+
+     .botaoGithub{  
+        width: 340px;
+        margin-top: 30px;
+        
+     }
 
     .trabalhando{
     width: 452px;
@@ -82,7 +97,13 @@
 
  
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Primeira section */
+    
+    .botaoLinkedin{
+        margin-left: 20px;
+     }
 
     /* Terceira section */
 
@@ -118,5 +139,11 @@
     .trabalhando{
         width: 576px;
     }
+
+    /* Primeira section */
+    
+    .botaoLinkedin{
+        margin-left: 20px;
+     }
 
 }
