@@ -22,15 +22,21 @@
 
      #nomePrincipal{
         font-size: 28px;
+        text-align: center;
      }
 
      #nomeDesenvolvedor{
         font-size: 22px;
+        text-align: center;
+     }
+
+     .botaoLinkedin{
+        margin-left: 110px;
      }
 
      .trabalhando{
-        width: 324px;
-    
+        width: 320px;
+        margin-left: 18px;
     }
 
 
