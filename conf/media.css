@@ -31,19 +31,17 @@
      }
 
      .botaoLinkedin{
-        width: 180px;
-        margin-left: 68px;
+        width: 100%;
      }
 
      .botaoGithub{  
-        width: 180px;
+        width: 100%;
         margin-top: 30px;
-        margin-left: 68px;
      }
 
      .trabalhando{
-        width: 320px;
-        height: 180px;
+        width: 100%;
+
     }
 
 
@@ -79,18 +77,16 @@
 
 
     .botaoLinkedin{
-        width: 300px;
-        margin-left: 44px;
+        width: 100%;
      }
 
      .botaoGithub{  
-        width: 300px;
+        width: 100%;
         margin-top: 30px;
-        margin-left: 44px;
      }
 
     .trabalhando{
-    width: 452px;
+    width: 100%;
     }
 
 }
